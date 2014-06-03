@@ -4,7 +4,7 @@
 $maxLink = 0;
 $maxLinkStarter = 1;
 
-for ($i = 230631; $i < 1000000; $i++)
+for ($i = 1; $i < 1000000; $i++)
 {
 	$newValue = $i;
 	$linkLength = 1;
