@@ -1,6 +1,7 @@
 def sumSquareSquareSumDiff(max):
     sum = 0
     sumOfSquares = 0
+    #Python range is exclusive, so we need to add 1 to max
     for i in range(max + 1):
         sum += i
         sumOfSquares += (i ** 2)
